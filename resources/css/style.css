@@ -89,6 +89,19 @@ a {
   box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
 }
 
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .jumbotron h1 {
+    font-size: 6.5rem;
+  }
+  .jumbotron {
+    padding-top: 22rem;
+    height: 70rem;
+  }
+  .btn-wrapper {
+    top: -25rem;
+  }
+}
+
 .projects {
   padding-bottom: 5.85rem;
 }
@@ -152,6 +165,15 @@ h3 {
 .projects .image-container {
   height: 19.5rem;
   overflow: hidden;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .project {
+    margin-bottom: 3.5rem;
+  }
+  .projects {
+    padding-bottom: 2.0rem;
+  }
 }
 
 .learn-more {
